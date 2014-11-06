@@ -4,11 +4,16 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 // endbower
 
 .wins{
-  fill: green;
+  fill: rgb(96, 196, 96);
 }
 
 .losses{
-  fill: red;
+  fill: rgb(232, 92, 92);
+}
+
+.text-box{
+  fill: black;
+  text-anchor: middle;
 }
 
 .browsehappy {

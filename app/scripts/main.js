@@ -3,16 +3,15 @@
 
 var gameStats;
 
-var margin = {top: 10, right: 10, bottom: 10, left: 10},
-    width = 800 - margin.left - margin.right,
-    height = 700 - margin.top - margin.bottom;
+var width = 800,
+    height = 750;
 
-var labelWidth = width/7;
-var barMaxWidth = width/2 - labelWidth;
+var labelWidth = 120;
+var barMaxWidth = width/2 - labelWidth/2;
 
 var svg = d3.select('body').select('.svg').append('svg')
-	.attr('width', width+margin.left+margin.right)
-	.attr('height', height+margin.top+margin.bottom);
+	.attr('width', width)
+	.attr('height', height);
 
 var player = svg.selectAll('.player');
 
@@ -31,13 +30,13 @@ function update(){
 	var playerEnter = player.enter().append('g')
 		.attr('class', 'player')
 		.attr('transform', function(d, i) { 
-			return 'translate(0,' + parseFloat(i*barHeight+margin.top) + ')'; 
+			return 'translate(0,' + parseFloat(i*barHeight) + ')'; 
 		});
 
 	playerEnter.append('rect')
 		.attr('class', 'wins')
 		.attr('width', function(d) { return xScale(d.values.wins); })
-		.attr('height', barHeight-3)
+		.attr('height', barHeight-1)
 		.attr('transform', function(d) { 
 			return 'translate(' + parseFloat(barMaxWidth - xScale(d.values.wins)) + ',0)'; 
 		});
@@ -45,15 +44,17 @@ function update(){
 	playerEnter.append('rect')
 		.attr('class', 'losses')
 		.attr('width', function(d) { return xScale(d.values.losses); })
-		.attr('height', barHeight-3)
+		.attr('height', barHeight-1)
 		.attr('transform', function() { 
 			return 'translate(' + parseFloat(barMaxWidth+labelWidth) + ',0)'; 
 		});
 
 	playerEnter.append('text')
-		.text(function(d) { return d.key + ': ' + Math.round(d.values.wins/d.values.losses * 100) / 100; })
-		.attr('transform', 'translate(' + barMaxWidth + ',0)')
-		.attr('dy', '18px');
+		.attr('class', 'text-box')
+		.attr('transform', 'translate(' + width/2 + ',0)')
+		.text(function(d) { return d.key + ': ' + Math.round(d.values.wins/(d.values.losses+d.values.wins) * 100) / 100; })	
+		//.style('font-size', function() { return Math.min(labelWidth, (labelWidth - 8) / this.getComputedTextLength() * 14) + 'px'; })
+		.attr('dy', parseFloat((barHeight+2)/2) + 'px');
 }
 
 d3.tsv('gameStats.tsv', function(error, json){
@@ -63,7 +64,7 @@ d3.tsv('gameStats.tsv', function(error, json){
 		.entries(json);
 
 	gameStats.sort(function(a, b){
-		var toReturn = b.values.wins/b.values.losses - a.values.wins/a.values.losses;
+		var toReturn = b.values.wins/(b.values.losses+b.values.wins) - a.values.wins/(a.values.losses+b.values.wins);
 		if(isNaN(toReturn)) {
 			toReturn = b.values.wins - a.values.wins;
 		}

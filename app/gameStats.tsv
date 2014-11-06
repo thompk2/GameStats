@@ -156,19 +156,224 @@ Date	Score	Player	Game	Win	SessionID	Notes
 1/20/2012	392	Jake	Modern Art	FALSE	2012012001	
 1/20/2012	500	Ben	Modern Art	TRUE	2012012001	
 3/29/2013	328	silvio	Modern Art	FALSE	2013032901	
-3/29/2013	457	Chris/Sable	Modern Art	FALSE	2013032901	
+3/29/2013	457	Sable/Chris	Modern Art	FALSE	2013032901	
 3/29/2013	283	Ryan	Modern Art	FALSE	2013032901	
 3/29/2013	325	Keith	Modern Art	FALSE	2013032901	
 	400	Jack	Modern Art	FALSE	1	
 	455	Ryan	Modern Art	FALSE	1	
 	455	silvio	Modern Art	FALSE	1	
 	456	Keith	Modern Art	FALSE	1	
-	552	Chris/Sable	Modern Art	TRUE	1	
+	552	Sable/Chris	Modern Art	TRUE	1	
 	446	Keith	Modern Art	TRUE	2	
 	341	Ryan	Modern Art	FALSE	2	
 	434	Jack	Modern Art	FALSE	2	
 	315	silvio	Modern Art	FALSE	2	
-	431	Chris/Sable	Modern Art	FALSE	2	
+	431	Sable/Chris	Modern Art	FALSE	2	
 	361	Sable	Modern Art	FALSE	3	
 	471	Ryan	Modern Art	TRUE	3	
 	461	Keith	Modern Art	FALSE	3	
+	339	Jack	Modern Art	FALSE	3	
+	292	Matt	Modern Art	FALSE	3	
+	402	Sable	Modern Art	FALSE	4	
+	323	Ryan	Modern Art	FALSE	4	
+	378	Keith	Modern Art	FALSE	4	
+	340	silvio	Modern Art	FALSE	4	
+	472	Jack	Modern Art	TRUE	4	
+	372	Sable	Modern Art	FALSE	5	
+	502	Keith	Modern Art	TRUE	5	
+	319	Matt	Modern Art	FALSE	5	
+	352	Chris	Modern Art	FALSE	5	
+	435	Gaurav	Modern Art	FALSE	5	
+	431	Chris	Modern Art	FALSE	6	
+	431	silvio	Modern Art	FALSE	6	
+	368	Keith	Modern Art	FALSE	6	
+	435	Ryan	Modern Art	FALSE	6	
+	451	Matt	Modern Art	TRUE	6	
+	523	silvio	Modern Art	TRUE	7	
+	365	Sam	Modern Art	FALSE	7	
+	361	Chris	Modern Art	FALSE	7	
+	398	Sable	Modern Art	FALSE	7	
+	503	Ryan	Modern Art	FALSE	7	
+	510	silvio	Modern Art	TRUE	8	
+	452	Sam	Modern Art	FALSE	8	
+	492	Ryan	Modern Art	FALSE	8	
+	443	Sable/Chris	Modern Art	FALSE	8	
+	468	Jack	Modern Art	FALSE	8	
+	450	Ryan	Modern Art	FALSE	9	
+	557	Sam	Modern Art	TRUE	9	
+	347	Chris	Modern Art	FALSE	9	
+	360	silvio	Modern Art	FALSE	9	
+	394	Sable	Modern Art	FALSE	9	
+	322	Ryan	Modern Art	FALSE	10	
+	301	Chris	Modern Art	FALSE	10	
+	282	Matt	Modern Art	FALSE	10	
+	502	Jack	Modern Art	TRUE	10	
+	359	Sable	Modern Art	FALSE	10	
+	481	Matt	Modern Art	FALSE	11	
+	518	Sam	Modern Art	TRUE	11	
+	397	Ryan	Modern Art	FALSE	11	
+	428	Keith	Modern Art	FALSE	11	
+	358	Sable/Chris	Modern Art	FALSE	11	
+	442	Conner	Modern Art	FALSE	12	
+	228	silvio	Modern Art	FALSE	12	
+	462	Keith	Modern Art	TRUE	12	
+	442	Sam	Modern Art	FALSE	12	
+	371	Sable/Chris	Modern Art	FALSE	12	
+	313	Jack	Modern Art	FALSE	13	
+	514	Keith	Modern Art	FALSE	13	
+	553	Sable/Chris	Modern Art	TRUE	13	
+	427	Ryan	Modern Art	FALSE	13	
+	301	silvio	Modern Art	FALSE	13	
+	469	silvio	Modern Art	TRUE	14	
+	311	Ryan	Modern Art	FALSE	14	
+	401	Keith	Modern Art	FALSE	14	
+	346	Sam	Modern Art	FALSE	14	
+	443	Sable/Chris	Modern Art	FALSE	14	
+	415	Sable/Chris	Modern Art	FALSE	15	
+	407	Ryan	Modern Art	FALSE	15	
+	644	Jack	Modern Art	TRUE	15	highly suspicious
+	398	Connor	Modern Art	FALSE	15	
+	366	silvio	Modern Art	FALSE	15	
+	377	Ryan	Modern Art	FALSE	16	
+	362	Sam	Modern Art	FALSE	16	
+	264	Jack	Modern Art	FALSE	16	
+	596	silvio	Modern Art	TRUE	16	
+	490	Sable/Chris	Modern Art	FALSE	16	
+	520	Satvik	Modern Art (4 player)	FALSE	17	
+	456	Ryan	Modern Art (4 player)	FALSE	17	
+	431	silvio	Modern Art (4 player)	FALSE	17	
+	533	Jack	Modern Art (4 player)	TRUE	17	
+	350	Ben	Modern Art	FALSE	18	
+	564	silvio	Modern Art	TRUE	18	
+	378	Satvik	Modern Art	FALSE	18	
+	401	Sable	Modern Art	FALSE	18	
+	457	Chris	Modern Art	FALSE	18	
+	424	Ryan	Modern Art	FALSE	19	
+	405	Jack	Modern Art	FALSE	19	
+	430	Chris	Modern Art	FALSE	19	
+	478	Sable	Modern Art	TRUE	19	
+	383	silvio	Modern Art	FALSE	19	
+	483	Sable	Modern Art (4 player)	FALSE	20	
+	437	Chris	Modern Art (4 player)	FALSE	20	
+	506	silvio	Modern Art (4 player)	TRUE	20	
+	400	Ryan	Modern Art (4 player)	FALSE	20	
+	374	Jack	Modern Art	FALSE	21	
+	473	Ryan	Modern Art	TRUE	21	
+	264	silvio	Modern Art	FALSE	21	
+	341	Sam	Modern Art	FALSE	21	
+	362	Sable	Modern Art	FALSE	21	
+	206	Keith	Modern Art	FALSE	22	
+	376	Ryan	Modern Art	FALSE	22	
+	552	Jack	Modern Art	TRUE	22	
+	489	silvio	Modern Art	FALSE	22	
+	451	Sable	Modern Art	FALSE	22	
+	460	Keith	Modern Art	TRUE	23	
+	342	Ryan	Modern Art	FALSE	23	
+	321	Kanon	Modern Art	FALSE	23	
+	348	silvio	Modern Art	FALSE	23	
+	430	Sable	Modern Art	FALSE	23	
+	511	Sable	Modern Art (4 player)	TRUE	24	
+	349	silvio	Modern Art (4 player)	FALSE	24	
+	405	Gaurav	Modern Art (4 player)	FALSE	24	
+	363	Chris	Modern Art (4 player)	FALSE	24	
+	465	Sable	Modern Art	TRUE	25	
+	360	Ryan	Modern Art	FALSE	25	
+	270	Keith	Modern Art	FALSE	25	
+	371	Chris	Modern Art	FALSE	25	
+	378	silvio	Modern Art	FALSE	52	
+	390	Matt	Modern Art	FALSE	26	
+	514	Ryan	Modern Art	FALSE	26	
+	513	Jack	Modern Art	FALSE	26	
+	336	silvio	Modern Art	FALSE	26	
+	552	Chris	Modern Art	TRUE	26	
+	309	Ryan	Modern Art	FALSE	27	
+	401	silvio	Modern Art	FALSE	27	
+	478	Chris	Modern Art	FALSE	27	
+	515	Sable	Modern Art	TRUE	27	
+	347	Jeff	Modern Art	FALSE	27	
+	617	Keith	Modern Art (4 player)	TRUE	28	
+	447	Sam	Modern Art (4 player)	FALSE	28	
+	455	silvio	Modern Art (4 player)	FALSE	28	
+	535	Sable	Modern Art (4 player)	FALSE	28	
+	557	Sable	Modern Art	TRUE	29	
+	372	Ryan	Modern Art	FALSE	29	
+	293	Sam	Modern Art	FALSE	29	
+	437	Chris	Modern Art	FALSE	29	
+	401	silvio	Modern Art	FALSE	29	
+	257	Keith	Modern Art	FALSE	30	
+	426	silvio	Modern Art	FALSE	30	
+	522	Ryan	Modern Art	TRUE	30	
+	491	Jack	Modern Art	FALSE	30	
+	404	Sable/Chris	Modern Art	FALSE	30	
+	385	silvio	Modern Art	FALSE	31	
+	393	Keith	Modern Art	FALSE	31	
+	387	Chris/Sam	Modern Art	FALSE	31	
+	372	Ryan	Modern Art	FALSE	31	
+	558	Sable	Modern Art	TRUE	31	
+	323	Jack	Modern Art	FALSE	32	
+	447	Sable/Chris	Modern Art	FALSE	32	
+	480	Ryan	Modern Art	TRUE	32	
+	395	silvio	Modern Art	FALSE	32	
+	475	Keith	Modern Art	FALSE	32	
+	591	Keith	Modern Art	TRUE	33	
+	584	Ryan	Modern Art	FALSE	33	
+	393	Sable	Modern Art	FALSE	33	
+	280	silvio	Modern Art	FALSE	33	
+	412	Chris	Modern Art	FALSE	33	
+	507	Sam	Modern Art (4 player)	TRUE	34	
+	383	Ryan	Modern Art (4 player)	FALSE	34	
+	311	silvio	Modern Art (4 player)	FALSE	34	
+	436	Sable	Modern Art (4 player)	FALSE	34	
+	455	Ryan	Modern Art (4 player)	FALSE	35	
+	435	silvio	Modern Art (4 player)	FALSE	35	
+	360	Jack	Modern Art (4 player)	FALSE	35	
+	509	Sable	Modern Art (4 player)	TRUE	35	
+	516	Ryan	Modern Art	TRUE	36	
+	243	Sam	Modern Art	FALSE	36	
+	393	silvio	Modern Art	FALSE	36	
+	455	Keith	Modern Art	FALSE	36	
+	293	Jack	Modern Art	FALSE	36	
+	384	Jack	Modern Art	FALSE	37	
+	315	Ryan	Modern Art	FALSE	37	
+	399	Chris	Modern Art	FALSE	37	
+	404	silvio	Modern Art	TRUE	37	
+	383	Sable	Modern Art	FALSE	37	
+	335	Sable	Modern Art	FALSE	38	
+	414	Sam	Modern Art	FALSE	38	
+	427	Ryan	Modern Art	FALSE	38	
+	350	Jack	Modern Art	FALSE	38	
+	429	silvio	Modern Art	TRUE	38	
+	321	Jack	Modern Art	FALSE	39	
+	358	Chris	Modern Art	TRUE	39	
+	356	Keith	Modern Art	FALSE	39	
+	297	silvio	Modern Art	FALSE	39	
+	220	Ryan	Modern Art	FALSE	39	
+	497	Ryan	Modern Art	TRUE	40	
+	473	Sable	Modern Art	FALSE	40	
+	496	Chris	Modern Art	FALSE	40	
+	382	Jack	Modern Art	FALSE	40	
+	432	Keith	Modern Art	FALSE	40	
+	250	Keith	Modern Art	FALSE	41	
+	324	Ryan	Modern Art	FALSE	41	
+	410	silvio	Modern Art	FALSE	41	
+	420	Chris	Modern Art	FALSE	41	
+	489	Sable	Modern Art	TRUE	41	
+	328	Sam	Modern Art	FALSE	42	
+	431	Ryan	Modern Art	FALSE	42	
+	353	silvio	Modern Art	FALSE	42	
+	446	Sable	Modern Art	TRUE	42	
+	422	Chris/gaurav	Modern Art	FALSE	42	
+	412	Ryan	Modern Art	FALSE	43	
+	361	Silvio	Modern Art	FALSE	43	
+	436	Chris	Modern Art	TRUE	43	
+	250	Keith	Modern Art	FALSE	43	
+	354	Sable	Modern Art	FALSE	43	
+	440	Ryan	Modern Art	FALSE	45	
+	345	Silvio	Modern Art	FALSE	45	
+	318	Kanon	Modern Art	FALSE	45	
+	480	Sable	Modern Art	FALSE	45	
+	571	Jack	Modern Art	TRUE	45	
+	552	Stu	Modern Art (4 player)	TRUE	46	
+	517	Ryan	Modern Art (4 player)	FALSE	46	
+	505	Sable	Modern Art (4 player)	FALSE	46	
+	340	Nick	Modern Art (4 player)	FALSE	46	
